@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>
+  <meta charset="UTF-8">
+  <title>Бронирование места</title>
+
+<link rel="stylesheet" href="./stylereg.css">
+
+</head>
+<body>
+	<script>
+		function sendallert()
+		{
+		alert('Нажав кнопку Отправить, Вы соглашаетесь с правилами пользования машино-местами на парковке.');
+		}
+		</script>
+		
+		<script>
+		function point()
+		{
+		alert('Только категория М1 в соответствии с техническим регламентом таможенного союза о безопасности колесных транспортных средств.');
+		}
+		</script>
+		
+<body link="white" vlink="white" alink="#FF0000"> 
+
+	<div class="form">
+	<form action="insert.php" method="POST">
+      <table>
+	      <h1>Забронировать место</h1>
+   <tr>
+    <td>Ваше имя:	</td>
+    <td><input type="text" name="name" required></td>
+   </tr>
+   <tr>
+    <td>Фамилия:	</td>
+    <td><input type="text" name="surname" required></td>
+   </tr>
+   <tr>
+    <td>Вид ТС:	</td>
+    <td>
+     Легковой<sup onclick="point()">¹</sup>
+     
+    </td>
+   </tr>
+   <tr>
+    <td>Гос. номер:	</td>
+    <td><input type="text" onfocus="this.value=''" value="Введите гос. номер кириллицей" name="carid" required></td>
+   </tr> 
+   <tr>
+    <td>Моб.номер:	</td>
+    <td>
+     <input type="phone" name="phone" required>
+    </td>
+   </tr>
+   <tr>
+	<div><center><a href="rules.html">Правила пользования машино-местами</a></center></div>
+    <td><button type="submit" value="submit" onclick="sendallert()">Отправить</td>
+   
+   </tr>
+  
+  </table>
+  
+	</form>
+
+        </div>
+        
+      </div></div> 
+        
+</body>
+</html>

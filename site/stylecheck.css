@@ -1,0 +1,58 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Marmelad&display=swap');
+
+body {
+  background: #f3f5f9;
+  font-family: 'Marmelad';
+  
+}
+
+
+form {
+  background: #4b4276;
+  padding: 10px;
+  max-width: 460px;
+  margin: 100px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+  color:white;
+}
+
+
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 10;
+  margin: 10 0 40px;
+}
+
+input{
+  font-size: 22px;
+  display: block;
+  width: 112%;
+  height: 100%;
+  padding: 5px 10px;
+  background: none;
+  background-image: none;
+  border: 1px solid #a0b3b0;
+  color: #ffffff;
+  border-radius: 0;
+  font-family: 'Marmelad';
+}
+
+
+button {
+  margin-top: 30px;
+  border: 3;
+  outline: none;
+  border-radius: 0;
+  padding: 15px 0;
+  font-size: 100%;
+  font-family: 'Marmelad';
+  background: #c1bdba;
+  color: #000000;
+  width:530%;
+  height:52%;
+}
